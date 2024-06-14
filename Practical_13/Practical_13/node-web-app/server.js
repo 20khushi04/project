@@ -11,6 +11,9 @@ const app=express();
 app.get('/',(req,res)=>{
 	res.send('Hello Docker is running');
 });
+app.get('/k',(req,res)=>{
+	res.send('Hello Khushi');
+});
 
 app.listen(PORT,HOST);
 console.log('Running on http://${HOST}:${PORT}');
