@@ -12,7 +12,7 @@ app.get('/',(req,res)=>{
 	res.send('Hello Docker is running');
 });
 app.get('/k',(req,res)=>{
-	res.send('Welcome Khushi');
+	res.send('Welcome Khushi to the page');
 });
 
 app.listen(PORT,HOST);
